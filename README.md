@@ -75,8 +75,8 @@ Defines routes for different screens using MaterialApp.
 
 ### AppProvider.dart:  
 
-Defines the AppProvider class for state management.  
-Utilizes the ChangeNotifier class to notify listeners of state changes.  
+Manages the app state using the ChangeNotifier class.
+Keeps track of the current page and provides dynamic text based on the page.
 
 ### HomeScreen.dart:  
 

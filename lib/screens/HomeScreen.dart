@@ -1,9 +1,12 @@
-// screens/HomeScreen.dart
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import '../providers/AppProvider.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    AppProvider appProvider = Provider.of<AppProvider>(context);
+    appProvider.setCurrentPage('home');
     double buttonWidth = 70.0;
 
     return Scaffold(
@@ -13,6 +16,7 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             Text('Welcome to the Home Screen', style: TextStyle(fontSize: 18.0)),
+            Text('Data from AppProvider: ${appProvider.getDynamicText()}'),
             SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -11,17 +11,24 @@ void main() {
   runApp(
     ChangeNotifierProvider(
       create: (context) => AppProvider(),
-      child: MaterialApp(
-        title: 'Navigation and Routing Objective',
-        initialRoute: '/',
-        routes: {
-          '/': (context) => HomeScreen(),
-          '/profile': (context) => ProfileScreen(),
-          '/settings': (context) => SettingsScreen(),
-          '/notifications': (context) => NotificationsScreen(),
-          '/about': (context) => AboutScreen(),
-        },
-      ),
+      child: MyApp(),
     ),
   );
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Navigation and Routing Objective',
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomeScreen(),
+        '/profile': (context) => ProfileScreen(),
+        '/settings': (context) => SettingsScreen(),
+        '/notifications': (context) => NotificationsScreen(),
+        '/about': (context) => AboutScreen(),
+      },
+    );
+  }
 }

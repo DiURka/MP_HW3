@@ -54,7 +54,7 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 
   - AppProvider.dart  
 
-##### main.dart  
+#### main.dart  
 
 
 
@@ -67,7 +67,7 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 - about_screen.png  
 
 ## Code Explanations  
-### main.dart:  
+#### main.dart:  
 
 Sets up the main entry point of the application.  
 Initializes the Provider package for state management.  

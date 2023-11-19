@@ -38,17 +38,17 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 ## Folder Structure
 /lib  
 
-/screens  
+  /screens  
 
-- HomeScreen.dart  
-- ProfileScreen.dart  
-- SettingsScreen.dart  
-- NotificationsScreen.dart  
-- AboutScreen.dart  
+  - HomeScreen.dart  
+  - ProfileScreen.dart  
+  - SettingsScreen.dart  
+  - NotificationsScreen.dart  
+  - AboutScreen.dart  
 
 /providers  
 
-- AppProvider.dart  
+  - AppProvider.dart  
 
 - main.dart  
 

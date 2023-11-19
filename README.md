@@ -21,13 +21,13 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 ## Getting Started
 
 1. Clone this repository:  
-    git clone https://github.com/DiURka/HW3.git
+        git clone https://github.com/DiURka/HW3.git
 2. Navigate to the project directory:  
-    cd hw3
+        cd hw3
 3. Install dependencies:  
-    flutter pub get
+        flutter pub get
 4. Run the app:  
-    flutter run
+        flutter run
 
 ## Usage
 
@@ -50,7 +50,7 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 
   - AppProvider.dart  
 
-main.dart  
+##### main.dart  
 
 
 

@@ -50,7 +50,7 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 
   - AppProvider.dart  
 
-- main.dart  
+main.dart  
 
 /screenshots  
 

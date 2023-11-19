@@ -20,13 +20,13 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 
 ## Getting Started
 
-1. Clone this repository:
-   git clone https://github.com/DiURka/HW3.git
-2. Navigate to the project directory:
+1. Clone this repository:  
+    git clone https://github.com/DiURka/HW3.git
+2. Navigate to the project directory:  
     cd hw3
-3. Install dependencies:
+3. Install dependencies:  
     flutter pub get
-4. Run the app:
+4. Run the app:  
     flutter run
 
 ## Usage
@@ -40,28 +40,27 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 
   /screens  
 
-    - HomeScreen.dart  
-    - ProfileScreen.dart  
-    - SettingsScreen.dart  
-    - NotificationsScreen.dart  
-    - AboutScreen.dart  
+    HomeScreen.dart  
+    ProfileScreen.dart  
+    SettingsScreen.dart  
+    NotificationsScreen.dart  
+    AboutScreen.dart  
 
   /providers  
 
-    - AppProvider.dart  
+    AppProvider.dart  
 
   main.dart  
 
 /screenshots  
 
-  - home_screen.png  
-  - profile_screen.png  
-  - settings_screen.png  
-  - notifications_screen.png  
-  - about_screen.png  
+  home_screen.png  
+  profile_screen.png  
+  settings_screen.png  
+  notifications_screen.png  
+  about_screen.png  
 
 ## Code Explanations  
-
     main.dart:  
         Sets up the main entry point of the application.  
         Initializes the Provider package for state management.  

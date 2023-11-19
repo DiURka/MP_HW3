@@ -38,56 +38,56 @@ Navigation and Routing Objective is a Flutter application that serves as a hands
 ## Folder Structure
 /lib  
 
-    /screens  
+/screens  
 
-        - HomeScreen.dart  
-        - ProfileScreen.dart  
-        - SettingsScreen.dart  
-        - NotificationsScreen.dart  
-        - AboutScreen.dart  
+- HomeScreen.dart  
+- ProfileScreen.dart  
+- SettingsScreen.dart  
+- NotificationsScreen.dart  
+- AboutScreen.dart  
 
-    /providers  
+/providers  
 
-        - AppProvider.dart  
+- AppProvider.dart  
 
-    - main.dart  
+- main.dart  
 
 /screenshots  
 
-    - home_screen.png  
-    - profile_screen.png  
-    - settings_screen.png  
-    - notifications_screen.png  
-    - about_screen.png  
+- home_screen.png  
+- profile_screen.png  
+- settings_screen.png  
+- notifications_screen.png  
+- about_screen.png  
 
 ## Code Explanations  
-### main.dart:  
+#### main.dart:  
 
-    Sets up the main entry point of the application.  
-    Initializes the Provider package for state management.  
-    Defines routes for different screens using MaterialApp.  
+Sets up the main entry point of the application.  
+Initializes the Provider package for state management.  
+Defines routes for different screens using MaterialApp.  
 
-### AppProvider.dart:  
+#### AppProvider.dart:  
 
-    Defines the AppProvider class for state management.  
-    Utilizes the ChangeNotifier class to notify listeners of state changes.  
+Defines the AppProvider class for state management.  
+Utilizes the ChangeNotifier class to notify listeners of state changes.  
 
-### HomeScreen.dart:  
+#### HomeScreen.dart:  
 
-    Implements the Home screen with navigation buttons to other screens.  
-    Uses ElevatedButton widgets for navigation.  
-    Demonstrates the use of Navigator for screen navigation.  
+Implements the Home screen with navigation buttons to other screens.  
+Uses ElevatedButton widgets for navigation.  
+Demonstrates the use of Navigator for screen navigation.  
 
-### ProfileScreen.dart:  
+#### ProfileScreen.dart:  
 
-    Implements the Profile screen with data passing from the Home screen.  
-    Retrieves data using ModalRoute.of(context)?.settings.arguments.  
-    Uses ElevatedButton for navigation back to the Home screen.  
+Implements the Profile screen with data passing from the Home screen.  
+Retrieves data using ModalRoute.of(context)?.settings.arguments.  
+Uses ElevatedButton for navigation back to the Home screen.  
 
-### SettingsScreen.dart, NotificationsScreen.dart, AboutScreen.dart:  
+#### SettingsScreen.dart, NotificationsScreen.dart, AboutScreen.dart:  
 
-    Implements Settings, Notifications, and About screens respectively.  
-    Each screen may contain specific functionalities or information.  
+Implements Settings, Notifications, and About screens respectively.  
+Each screen may contain specific functionalities or information.  
 
 
-#### Happy Coding! 🚀
+### Happy Coding! 🚀

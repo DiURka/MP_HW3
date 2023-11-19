@@ -96,6 +96,4 @@ Implements Settings, Notifications, and About screens respectively.
 Each screen may contain specific functionalities or information.  
   
   
-  
-  
 ## Happy Coding! 🚀
